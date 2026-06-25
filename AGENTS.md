@@ -5,7 +5,7 @@
  
 ## 구조 (ECB)
 - src/square.py : Entity(순수 로직·불변식). Flask 등 Boundary를 import 하지 않는다.
-- src/app.py  : Boundary(Flask 주문 폼). suqare.py(Entity)를 import 해 재사용한다.
+- src/app.py  : Boundary(Flask 마방진 폼). suqare.py(Entity)를 import 해 재사용한다.
 - tests/entity/    : 불변식(INV-*) 검증
 - tests/boundary/  : 입력/UI 계약(E-*, UC-*) 검증
 
